@@ -4,11 +4,15 @@ function App() {
 
   return (
     <div >
-      <div className="flex  flex-col  w-full ">
-        
+      <div className="grid grid-cols-4  w-full">
+     
+      <div className="flex  flex-col   col-start-2">
+        <div>
         <h1  className=" text-black-600 text-4xl font-mono">Smarter Tasks</h1>
+        </div>
         <div className="flex">
         <p className="text-slate-600 font-medium">Project:</p><p className="text-slate-500 font-small">Graduation Final Year Project (Revamp college website)</p>
+       </div>
        </div>
       </div>
       <div className="flex justify-around">
