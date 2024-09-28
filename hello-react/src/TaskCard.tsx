@@ -14,7 +14,7 @@ const TaskCard = (props:TaskCardProps) => {
         <div className="TaskItem">
             <h2 className="text-xl font-bold ">{props.title}</h2>
             <p>{props.completedAtDate?`Completed on: ${props.completedAtDate}`:`Due on: ${props.dueDate}`}</p>
-            <p>Assignee:{props.assigneeName}</p>
+            <p>Assignee: {props.assigneeName}</p>
         </div>
     )
 }
