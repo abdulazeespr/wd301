@@ -18,15 +18,15 @@ function App() {
       <div className="flex justify-around">
       <div className="border-2 px-2 py-3 border-slate-500 rounded-lg ">
         <h1 className="text-center text-slate-600 text-2xl font-mono">Pending</h1>
-        <TaskCard title="Build the website with static content " completedAtDate="" dueDate="10th April" assigneeName="Rohit S" done={false} />
-        <TaskCard title="Add a blog " completedAtDate=""  dueDate="22nd March" assigneeName="Rohit MS" done={false}/>
+        <TaskCard title="Build the website with static content "  dueDate="10th April" assigneeName="Rohit S"  />
+        <TaskCard title="Add a blog "   dueDate="22nd March" assigneeName="Rohit MS" />
         
       </div>
 
       <div className="border-2 px-2 py-3 border-slate-500 rounded-lg" >
         <h1 className="text-center text-slate-600 text-2xl font-mono">Done</h1>
-        <TaskCard title="Design the mockup" completedAtDate="10th April" dueDate="" assigneeName="Rohit M"  done={true}/>
-        <TaskCard title="Get the approval from principal" completedAtDate="20th April" dueDate="" assigneeName="Ajay S" done={true} />
+        <TaskCard title="Design the mockup" completedAtDate="10th April"  assigneeName="Rohit M" />
+        <TaskCard title="Get the approval from principal" completedAtDate="20th April"  assigneeName="Ajay S" />
         
       </div>
       </div>
